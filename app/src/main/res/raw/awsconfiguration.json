@@ -1,0 +1,39 @@
+{
+  "UserAgent": "MobileHub/1.0",
+  "Version": "1.0",
+  "CredentialsProvider": {
+    "CognitoIdentity": {
+      "Default": {
+        "PoolId": "ap-southeast-1:43a842c4-2e2c-40db-ab3a-437aa983741d",
+        "Region": "ap-southeast-1"
+      }
+    }
+  },
+  "IdentityManager": {
+    "Default": {}
+  },
+  "CognitoUserPool": {
+    "Default": {
+      "PoolId": "ap-southeast-1_9ezrP4hSM",
+      "AppClientId": "53crkcrrsjc2ev02a877tq5jd4",
+      "AppClientSecret": "1jmkfjfctk2eg7qvfg3ieit38lfmsqs3p5c4gg3f3fqjmhupiud",
+      "Region": "ap-southeast-1"
+    }
+  },
+  "DynamoDBObjectMapper": {
+    "Default": {
+      "Region": "ap-southeast-1"
+    }
+  },
+  "PinpointAnalytics": {
+    "Default": {
+      "AppId": "4cbf062d45e74ba1b50fbe770f84969e",
+      "Region": "us-east-1"
+    }
+  },
+  "PinpointTargeting": {
+    "Default": {
+      "Region": "us-east-1"
+    }
+  }
+}
